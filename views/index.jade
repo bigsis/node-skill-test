@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    input#user(type="search", placeholder="User")
+    button#search(type="submit") Submit
+    table#list
+        tr.row
+            td.avatar Avatar
+            td.login login
+            td.url url
+
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+    script(src="/javascripts/main.js")
